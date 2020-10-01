@@ -1,0 +1,24 @@
+{
+  "name": "webpack-basic-bundle",
+  "version": "1.0.0",
+  "description": "Тестовая сборка Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksMkm/webpack-basic-bundle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksMkm/webpack-basic-bundle/issues"
+  },
+  "homepage": "https://github.com/AleksMkm/webpack-basic-bundle#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
