@@ -3,8 +3,8 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js',
   },
   module: {
     rules: [
@@ -13,5 +13,10 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
     ],
+  },
+  devServer: {
+    port: 2345,
+    open: true,
+    stats: 'errors-only',
   },
 };
