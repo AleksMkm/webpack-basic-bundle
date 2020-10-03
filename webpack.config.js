@@ -38,6 +38,10 @@ module.exports = {
           'img-loader',
         ],
       },
+      {
+        test: /\.(webp)$/i,
+        loaders: ['file-loader', 'webp-loader'],
+      },
     ],
   },
   plugins: [
