@@ -38,6 +38,10 @@ module.exports = {
           'img-loader',
         ],
       },
+      {
+        test: /\.hbs$/,
+        use: 'handlebars-loader',
+      },
     ],
   },
   plugins: [
